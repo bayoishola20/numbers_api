@@ -1,0 +1,7 @@
+body {
+    font-family: 'Bellefair', monospace;
+}
+
+#fact {
+    display: none;
+}
