@@ -16,13 +16,26 @@
 
 </head>
 <body class="bg-light">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-10 mx-auto">
-                <div class="card bg-success text-white text-center m-5 p-2">
-                    <h2>NUMBER FACTS</h2>
-                    <label>Type number to get fact...</label>
+                <div class="card bg-dark text-white text-center m-5 p-2">
+                    <h2>RANDOM FACTS</h2>
+                    <label>Select fact by type...</label>
+                    <div class="radio form-check-inline">
+                        <label>
+                            <input type="radio" name="gridRadios" id="triviaRadio" value="Trivia" onclick="randomType()" checked="true">
+                            Trivia-type
+                        </label>
+                        &nbsp;
+                        <label>
+                            <input type="radio" name="gridRadios" id="yearRadio" value="Year" onclick="randomType()">
+                                Year-type
+                        </label>
+                    </div>
+
                     <input type="number" class="form-control form-control-lg" id="numberInput" placeholder="Type a number...">
+
                     <div id="fact" class="card card-body mt-2 text-dark">
                         <!-- <h4 class="card-title">
                             Fact

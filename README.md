@@ -5,7 +5,7 @@ An application using http://numbersapi.com/ to get facts.
 * Clone the repo: `git clone https://github.com/bayoishola20/numbers_api.git`
 
 ## Type a year and get its random fact
-## Type in a number and also get its random fact
+## Type in a number and get its random fact
 
 &leftarrow; Requests are made with both XHR and Fetch
 
